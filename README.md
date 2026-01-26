@@ -1,1 +1,1 @@
-A simple HTML/JS/CSS starter template
+Site ultilizando HTML, CSS e JS, destinado há Sophia de Souza Araujo.
