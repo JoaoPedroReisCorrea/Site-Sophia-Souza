@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartinhas para Sophia 🤍</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Cartinhas para Sophia 🤍</h1>
+    <p class="subtitle">Abra um envelope</p>
+
+    <div class="envelopes">
+
+      <div class="envelope" onclick="openLetter('amor')">
+        <div class="paper">Meu amor 🤍</div>
+      </div>
+
+      <div class="envelope" onclick="openLetter('saudade')">
+        <div class="paper">Saudade 🤍</div>
+      </div>
+
+      <div class="envelope" onclick="openLetter('triste')">
+        <div class="paper">Triste 🤍</div>
+      </div>
+
+      <div class="envelope" onclick="openLetter('duvida')">
+        <div class="paper">Dúvida 🤍</div>
+      </div>
+
+      <div class="envelope" onclick="openLetter('feliz')">
+        <div class="paper">Feliz 🤍</div>
+      </div>
+
+      <div class="envelope" onclick="openLetter('ciumes')">
+        <div class="paper">Ciúmes 🤍</div>
+      </div>
+
+      <div class="envelope" onclick="openLetter('seguranca')">
+        <div class="paper">Segurança 🤍</div>
+      </div>
+
+      <div class="envelope" onclick="openLetter('madrugada')">
+        <div class="paper">Madrugada 🤍</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CARTA ABERTA -->
+  <div class="overlay" id="overlay" onclick="closeLetter()">
+    <div class="letter">
+      <p id="letter-text"></p>
+      <span class="close">clique para fechar</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
